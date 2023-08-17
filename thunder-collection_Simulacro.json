@@ -1,0 +1,97 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Simulacro",
+    "dateExported": "2023-08-17T03:04:11.576Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "9bab4bc5-2e35-4a32-a3e3-f94a288dba14",
+            "name": "Inscriptions",
+            "containerId": "",
+            "created": "2023-08-16T16:54:56.613Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "bae911d8-454f-4130-a503-c18e7052d847",
+            "colId": "0e13a3cf-994a-40dc-9f1b-138c605b5ae2",
+            "containerId": "9bab4bc5-2e35-4a32-a3e3-f94a288dba14",
+            "name": "add inscription",
+            "url": "localhost:3000/inscription/add",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-08-16T16:55:04.016Z",
+            "modified": "2023-08-16T23:46:07.918Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "carnet",
+                        "value": "a25451"
+                    },
+                    {
+                        "name": "name",
+                        "value": "Job Sis"
+                    },
+                    {
+                        "name": "address",
+                        "value": "Guatemala Zona 6"
+                    },
+                    {
+                        "name": "gender",
+                        "value": "m"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "birthdate",
+                        "value": "2006-08-16"
+                    },
+                    {
+                        "name": "studentCareer",
+                        "value": "Informatica"
+                    },
+                    {
+                        "name": "poeticGenre",
+                        "value": "dramática"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "a188c0ba-5faf-4410-9dde-1292800a21c0",
+            "colId": "0e13a3cf-994a-40dc-9f1b-138c605b5ae2",
+            "containerId": "9bab4bc5-2e35-4a32-a3e3-f94a288dba14",
+            "name": "Get Inscription",
+            "url": "localhost:3000/inscription/get/64dd80c20fa8ffc69ab2b651",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-08-17T00:15:16.966Z",
+            "modified": "2023-08-17T02:07:24.449Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3e9097ea-a6e4-4aaa-8696-0ffec1af8b46",
+            "colId": "0e13a3cf-994a-40dc-9f1b-138c605b5ae2",
+            "containerId": "9bab4bc5-2e35-4a32-a3e3-f94a288dba14",
+            "name": "Get Inscriptions",
+            "url": "localhost:3000/inscription/get",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-08-17T01:29:54.580Z",
+            "modified": "2023-08-17T01:30:12.208Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
